@@ -5,7 +5,7 @@ from flask_app.controllers import tvshows_controller
 from flask_app.models import tvshows
 
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$') 
-db_name = 'exam'
+db_name = 'tvshows'
 
 class User:
     def __init__(self,data):
